@@ -1,0 +1,247 @@
+/* FAQ Section */
+.faq-section {
+  padding: 100px 0;
+  background-color: var(--bg-light); /* Sets the light gray background */
+}
+
+/* Accordion Customization */
+.accordion-item {
+  background-color: var(--white);
+  border: 1px solid var(--border-gray);
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Adds a subtle shadow */
+}
+
+.accordion-button {
+  background-color: var(--white);
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 1.125rem;
+  padding: 1.5rem 2rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--text-dark);
+  background-color: var(
+    --bg-light
+  ); /* Optional: changes background when open */
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.accordion-body {
+  padding: 0 2rem 1.5rem 2rem;
+  color: var(--text-gray);
+  line-height: 1.8;
+}
+
+/* Custom icon for accordion button */
+.accordion-button::after {
+  content: "+";
+  background-image: none;
+  transform: rotate(0deg);
+  font-weight: bold;
+  transition: transform 0.2s ease-in-out;
+  margin-left: 0.5rem;
+}
+
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+  transform: rotate(0deg);
+}
+
+/* Responsive Design */
+@media (max-width: 1199.98px) {
+  .hero-container {
+    padding: 50px 40px;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .yellow-circle {
+    top: -40px;
+    right: -40px;
+  }
+  .pricing-main-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .leads-hero-section {
+    margin: 30px 15px;
+  }
+
+  .leads-container {
+    padding: 40px 30px;
+  }
+
+  .leads-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .leads-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .stats-grid {
+    margin-top: 3rem;
+    gap: 1.5rem;
+  }
+
+  .yellow-circle {
+    top: -30px;
+    right: -30px;
+  }
+  .pricing-section-new {
+    padding: 60px 0;
+  }
+
+  .pricing-main-title {
+    font-size: 2.2rem;
+  }
+
+  .pricing-main-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+
+  .stat-number {
+    font-size: 2.5rem;
+  }
+
+  .pricing-card.featured {
+    transform: none;
+  }
+
+  .leads-hero-section {
+    margin: 20px 10px;
+  }
+
+  .leads-container {
+    padding: 30px 20px;
+  }
+
+  .leads-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .leads-subtitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .stat-item {
+    padding: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+  }
+
+  .yellow-circle {
+    top: -25px;
+    right: -25px;
+  }
+  .pricing-section-new {
+    padding: 50px 0;
+  }
+
+  .pricing-main-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .pricing-main-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .pricing-plan-card {
+    padding: 1.5rem;
+  }
+
+  .plan-footer {
+    margin: -1.5rem -1.5rem -1.5rem -1.5rem;
+    padding: 1.25rem 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .pay-now-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .leads-container {
+    padding: 25px 15px;
+  }
+
+  .leads-title {
+    font-size: 1.75rem;
+  }
+
+  .stats-grid {
+    margin-top: 2rem;
+  }
+
+  .yellow-circle {
+    top: -20px;
+    right: -20px;
+  }
+  .pricing-plan-card {
+    padding: 1.25rem;
+  }
+
+  .pricing-main-title {
+    font-size: 1.6rem;
+  }
+
+  .feature-item {
+    margin-bottom: 0.75rem;
+  }
+
+  .feature-content strong {
+    font-size: 0.85rem;
+  }
+
+  .feature-content span {
+    font-size: 0.8rem;
+  }
+
+  .plan-footer {
+    margin: -1.25rem -1.25rem -1.25rem -1.25rem;
+    padding: 1rem 1.25rem;
+  }
+}
