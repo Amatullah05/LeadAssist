@@ -14,7 +14,7 @@ const Leads = () => {
             {/* Left content */}
             <div className="col-lg-6">
               <div className="leads-content">
-                <h1 className="leads-title">Get leads from LinkedIn</h1>
+                <h1 className="main-h2 text-white leads-title">Get leads from LinkedIn</h1>
                 <p className="leads-subtitle">
                   Seize the power of the largest professional network with Leadassist.
                 </p>

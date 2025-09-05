@@ -8,7 +8,7 @@ const Testimonials = () => {
         <div className="container">
           <div className="row mb-5">
             <div className="col-12 text-center">
-              <h2 className="display-4 fw-bold mb-4">Businesses stand out with us</h2>
+              <h2 className="main-h2 mb-4">Businesses stand out with us</h2>
               <p className="lead">Check out how other companies power-up their sales through increasing brand awareness and growing their LinkedIn audience.</p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Testimonials = () => {
           <div className="text-center mt-5">
             <a 
               href="https://calendly.com/meetings-leadassist/15-min-discovery-call" 
-              className="btn-primary-custom text-decoration-none"
+              className="btn-secondary text-decoration-none"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -1,4 +1,5 @@
 import React from 'react';
+import Badge from '../../assets/images/Badge.svg';
 
 const PartnershipSection = () => {
   return (
@@ -7,11 +8,12 @@ const PartnershipSection = () => {
         {/* Main Heading and Subtitle */}
         <div className="row mb-5">
           <div className="col-12 text-center">
-            <h2 className="display-4 fw-bold partnership-title mb-4">
+            <h2 className="main-h2 partnership-title mb-4">
               Will our partnership bring results?
             </h2>
             <p className="lead text-gray partnership-subtitle">
-              To meet and exceed your expectations, we focus only on things we can guarantee. Check these items to see if we make a good fit.
+              To meet and exceed your expectations, we focus only on things we can guarantee.<br />
+              Check these items to see if we make a good fit.
             </p>
           </div>
         </div>
@@ -28,9 +30,7 @@ const PartnershipSection = () => {
                     It's a match!
                   </h4>
                   <div className="star-icon">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="#FFD700" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
-                    </svg>
+                    <img src={Badge} alt="Badge Icon" />
                   </div>
                 </div>
                 <div className="card-border-bottom"></div>

@@ -1,59 +1,4 @@
-/* FAQ Section */
-.faq-section {
-  padding: 100px 0;
-  background-color: var(--bg-light); /* Sets the light gray background */
-}
 
-/* Accordion Customization */
-.accordion-item {
-  background-color: var(--white);
-  border: 1px solid var(--border-gray);
-  border-radius: 8px;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); /* Adds a subtle shadow */
-}
-
-.accordion-button {
-  background-color: var(--white);
-  color: var(--text-dark);
-  font-weight: 600;
-  font-size: 1.125rem;
-  padding: 1.5rem 2rem;
-}
-
-.accordion-button:not(.collapsed) {
-  color: var(--text-dark);
-  background-color: var(
-    --bg-light
-  ); /* Optional: changes background when open */
-  box-shadow: none;
-}
-
-.accordion-button:focus {
-  border-color: transparent;
-  box-shadow: none;
-}
-
-.accordion-body {
-  padding: 0 2rem 1.5rem 2rem;
-  color: var(--text-gray);
-  line-height: 1.8;
-}
-
-/* Custom icon for accordion button */
-.accordion-button::after {
-  content: "+";
-  background-image: none;
-  transform: rotate(0deg);
-  font-weight: bold;
-  transition: transform 0.2s ease-in-out;
-  margin-left: 0.5rem;
-}
-
-.accordion-button:not(.collapsed)::after {
-  content: "-";
-  transform: rotate(0deg);
-}
 
 /* Responsive Design */
 @media (max-width: 1199.98px) {
@@ -112,6 +57,13 @@
 
   .pricing-main-subtitle {
     font-size: 1rem;
+  }
+  .footer-title {
+    font-size: 2rem;
+  }
+  
+  .footer-description {
+    font-size: 1.1rem;
   }
 }
 
@@ -201,6 +153,92 @@
     width: 100%;
     justify-content: center;
   }
+
+.partnership-section {
+    padding: 60px 0;
+  }
+  
+  .partnership-title {
+    font-size: 2rem;
+  }
+  
+  .partnership-subtitle {
+    font-size: 1rem;
+  }
+  
+  .partnership-list {
+    font-size: 1rem;
+  }
+  
+  .card-header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .star-icon {
+    margin-top: 1rem;
+    align-self: flex-end;
+  }
+
+  .faq-section {
+    padding: 60px 0;
+  }
+  
+  .accordion-button {
+    font-size: 1rem;
+    padding: 1.25rem 0.5rem 1.25rem 0;
+  }
+  
+  .accordion-body {
+    padding: 0 0 1.25rem 2rem;
+  }
+  
+  .accordion-icon {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+  }
+  .footer-section {
+    padding: 60px 0 30px;
+  }
+  
+  .footer-title {
+    font-size: 1.8rem;
+  }
+  
+  .btn-primary {
+    padding: 14px 28px;
+    font-size: 16px;
+  }
+  
+  .footer-bottom-section {
+    text-align: center;
+  }
+  
+  .social-icons {
+    justify-content: center;
+  }
+  
+  .legal-links {
+    justify-content: center;
+  }
+   .cta-section {
+    padding: 80px 20px;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+  }
+  
+  .cta-button {
+    padding: 14px 28px;
+    font-size: 16px;
+  }
+  
+  .cta-vector-left,
+  .cta-vector-right {
+    max-width: 100px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -243,5 +281,43 @@
   .plan-footer {
     margin: -1.25rem -1.25rem -1.25rem -1.25rem;
     padding: 1rem 1.25rem;
+  }
+  .footer-title {
+    font-size: 1.5rem;
+  }
+  
+  .footer-description {
+    font-size: 1rem;
+  }
+  
+  .legal-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .link-separator {
+    display: none;
+  }
+  .cta-section {
+    padding: 60px 15px;
+  }
+  
+  .cta-title {
+    font-size: 1.8rem;
+  }
+  
+  .cta-description {
+    font-size: 1rem;
+  }
+  
+  .cta-button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Hide vectors on very small screens if they crowd the content */
+  .cta-vector-left,
+  .cta-vector-right {
+    display: none;
   }
 }

@@ -15,7 +15,7 @@ const Pricing = () => {
       <div className="container">
         <div className="row mb-5">
           <div className="col-12 text-center">
-            <h2 className="pricing-main-title">Crush your sales quota with Leadassist</h2>
+            <h2 className="main-h2 pricing-main-title">Crush your sales quota with Leadassist</h2>
             <p className="pricing-main-subtitle">
               Find out how our team can help you boost your sales and choose the best growth 
               plan that matches your company's strategy.

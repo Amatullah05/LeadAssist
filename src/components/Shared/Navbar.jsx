@@ -36,7 +36,7 @@ const Navbar = () => {
           </ul>
           <a
             href="https://calendly.com/meetings-leadassist/15-min-discovery-call"
-            className="btn-primary-custom text-decoration-none"
+            className="btn-primary text-decoration-none"
             target="_blank"
             rel="noopener noreferrer"
           >

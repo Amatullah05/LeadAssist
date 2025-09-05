@@ -8,7 +8,7 @@ const HeroSection = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="hero-content">
-                <h1 className="animate-fade-in-up">
+                <h1 className="main-h1 animate-fade-in-up">
                   Reach and engage leads via LinkedIn
                 </h1>
                 <p className="animate-fade-in-up" style={{'--animation-delay': '0.2s'}}>
@@ -16,12 +16,12 @@ const HeroSection = () => {
                 </p>
                 <a 
                   href="https://calendly.com/meetings-leadassist/15-min-discovery-call" 
-                  className="btn-primary-custom text-decoration-none animate-fade-in-up"
+                  className="btn-primary text-decoration-none animate-fade-in-up"
                   style={{'--animation-delay': '0.4s'}}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Book a call
+                  Book a call →
                 </a>
               </div>
             </div>
