@@ -1,0 +1,246 @@
+/* Bootstrap CSS */
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+:root {
+  --color-accent: #ffda30;
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray: #4F5C62;
+  --color-light-gray: #dce1e3;
+  --bg-color-light: #f2f4f3;
+  --primary-font: 'Inter', sans-serif;
+
+}
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  line-height: 1.55;
+  font-size: 18px;
+  color: var(--color-black);
+  background-color: var(--bg-color-light);
+}
+
+.container:not(.navbar .container) {
+  max-width: 1200px;
+}
+
+/* Typography */
+.text-primary {
+  color: var(--color-black) !important;
+}
+
+.text-yellow {
+  color: var(--color-accent) !important;
+}
+
+.text-gray {
+  color: var(--color-gray) !important;
+}
+
+.text-light {
+  color: var(--color-light-gray) !important;
+}
+
+/*Font Type*/
+.main-h1 {
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--color-black);
+}
+
+.main-h2 {
+  font-weight: 700;
+  font-size: 48px;
+  color: var(--color-black);
+}
+
+.main-h3 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-black);
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  color: var(--color-gray);
+  line-height: 28px;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  padding: 16px 32px;
+  line-height: 1.33em;
+  text-decoration: none;
+  transition: all 0.1s ease;
+}
+
+@media (max-width:767px) {
+  .btn {
+    font-size: 16px !important
+  }
+}
+
+.btn-primary {
+  background: var(--color-accent);
+  color: var(--color-black);
+}
+
+.btn-primary:hover {
+  background: #f9ce11;
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.btn-secondary {
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.btn-secondary:hover {
+  background: #f0f0f0;
+  color: var(--color-black);
+}
+
+
+/* Row Gap */
+.row-gap-10 {
+  row-gap: 10px;
+}
+
+.row-gap-15 {
+  row-gap: 15px;
+}
+
+.row-gap-20 {
+  row-gap: 20px;
+}
+
+.row-gap-25 {
+  row-gap: 25px;
+}
+
+.row-gap-30 {
+  row-gap: 30px;
+}
+
+.row-gap-35 {
+  row-gap: 35px;
+}
+
+.row-gap-40 {
+  row-gap: 40px;
+}
+
+.row-gap-45 {
+  row-gap: 45px;
+}
+
+.row-gap-50 {
+  row-gap: 50px;
+}
+
+/* Column Gap */
+.column-gap-10 {
+  column-gap: 10px;
+}
+
+.column-gap-15 {
+  column-gap: 15px;
+}
+
+.column-gap-20 {
+  column-gap: 20px;
+}
+
+.column-gap-25 {
+  column-gap: 25px;
+}
+
+.column-gap-30 {
+  column-gap: 30px;
+}
+
+.column-gap-35 {
+  column-gap: 35px;
+}
+
+.column-gap-40 {
+  column-gap: 40px;
+}
+
+.column-gap-45 {
+  column-gap: 45px;
+}
+
+.column-gap-50 {
+  column-gap: 50px;
+}
+
+/* General Gap */
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-15 {
+  gap: 15px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-25 {
+  gap: 25px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-35 {
+  gap: 35px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap-45 {
+  gap: 45px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out;
+}

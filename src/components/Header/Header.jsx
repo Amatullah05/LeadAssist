@@ -1,15 +1,15 @@
 import React from 'react';
+import './Header.css';
 import Logo from "../../assets/images/Logo.svg";
 import { Link } from "react-router-dom";
 
 
-
-const Navbar = () => {
+const Header = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
+    <header className="navbar navbar-expand-lg bg-white sticky-top">
       <div className="container">
-        <Link className="navbar-brand" to="/">
-          <img src={Logo} alt="Leadassist Logo" height="40" />
+        <Link to="/">
+          <img src={Logo} alt="Leadassist Logo" height="50" />
         </Link>
         <button
           className="navbar-toggler"
@@ -22,10 +22,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto me-4">
             <li className="nav-item">
-              <a className="nav-link" href="#services">Services</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#about">About</a>
+              <a className="nav-link" href="#top">Company</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#testimonials">Testimonials</a>
@@ -36,7 +33,7 @@ const Navbar = () => {
           </ul>
           <a
             href="https://calendly.com/meetings-leadassist/15-min-discovery-call"
-            className="btn-primary text-decoration-none"
+            className="btn btn-primary text-decoration-none"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -44,8 +41,8 @@ const Navbar = () => {
           </a>
         </div>
       </div>
-    </nav>
+    </header>
   );
 };
 
-export default Navbar;
+export default Header;

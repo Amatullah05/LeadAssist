@@ -1,24 +1,33 @@
 /* Client Logos */
 .client-logos {
-  padding: 60px 0;
+    padding: 60px 0;
 }
 
-.logo-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 80px;
-  opacity: 0.6;
-  transition: opacity 0.3s ease;
+.client-logo-carousel {
+    height: 75px;
 }
 
-.logo-container:hover {
-  opacity: 4;
+.client-logo-carousel .swiper-wrapper {
+    transition-timing-function: linear !important;
+}
+
+.client-logo-carousel .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.client-logo-carousel .logo-container {
+    height: 100%;
+    width: 100%;
 }
 
 .logo-container img {
-  max-height: 32px;
-  max-width: 128px;
-  object-fit: contain;
-  opacity: 1.5;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.logo-container:hover img {
+    opacity: 1;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../../components/Shared/Navbar'
-import Footer from '../../components/Shared/Footer';
+import Header from '../../components/Header/Header'
+import Footer from '../../components/Footer/Footer';
 import Faq from '../../components/FAQ/FAQ';
 import Partnership from '../../components/Partnership/Partnership';
 import Pricing from '../../components/Pricing/Pricing';
@@ -14,39 +14,18 @@ import CTA2 from '../../components/CTA2/CTA2';
 
 const Home = () => {
   return (
-    <div style={{backgroundColor: '#F2F4F3'}}>
-      {/* Header */}
-      <Navbar />
-
-      {/* Hero Section */}
+    <div>
+      <Header />
       <HeroSection/>
-
-      {/* Client Logos Section */}
       <Logos/>
-
-      {/* Get Leads Section */}
       <Leads/>
-
-      {/* Testimonials Section */}
       <Testimonials />
-
-      {/* Services Section */}
       <Service/>
-
-      {/* Ready to Start Section */}
       <CTA/>
-
-      {/* Pricing Section */}
       <Pricing/>
-
-      {/* Partnership Fit Section */}
       <Partnership/>
-
-      {/* FAQ Section */}
       <Faq/>
-      {/* CTA2 Section */}
       <CTA2/>
-      {/* Footer */}
       <Footer/>
     </div>
   );

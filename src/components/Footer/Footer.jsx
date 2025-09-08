@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 
 // Import assets (you'll need to add these to your project)
 import LinkedinIcon from '../../assets/images/Linkedin.svg';

@@ -41,7 +41,7 @@
   margin-left: auto;
   margin-right: auto;
 }
-@media (max-width: 767.98px){
+@media (max-width: 767px){
      .cta-section {
     padding: 80px 20px;
   }
@@ -60,7 +60,7 @@
     max-width: 100px;
   }
 }
-@media (max-width: 575.98px){
+@media (max-width: 575px){
     .cta-section {
     padding: 60px 15px;
   }

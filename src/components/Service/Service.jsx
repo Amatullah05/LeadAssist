@@ -42,7 +42,7 @@ const Service = () => {
               </ul>
               <a
                 href="https://calendly.com/meetings-leadassist/15-min-discovery-call"
-                className="btn-primary-custom text-decoration-none"
+                className="btn btn-primary-custom text-decoration-none"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -85,7 +85,7 @@ const Service = () => {
               </ul>
               <a
                 href="https://calendly.com/meetings-leadassist/15-min-discovery-call"
-                className="btn-primary-custom text-decoration-none"
+                className="btn btn-primary-custom text-decoration-none"
                 target="_blank"
                 rel="noopener noreferrer"
               >

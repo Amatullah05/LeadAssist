@@ -25,7 +25,7 @@ const CTA = () => {
             <p className="cta-description lead mb-4">Set up a brief meeting with one of the Leadassist's experts to facilitate your business growth.</p>
             <a 
               href="https://calendly.com/meetings-leadassist/15-min-discovery-call" 
-              className="btn-secondary"
+              className="btn btn-secondary"
               target="_blank"
               rel="noopener noreferrer"
             >

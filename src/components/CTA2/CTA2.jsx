@@ -17,7 +17,7 @@ const CTA2 = () => {
                             <p className="cta2-description mb-4 mx-auto">
                                 We help you grow by building your brand on LinkedIn and engaging with the decision-makers.
                             </p>
-                            <a href="/contact" className="btn-primary mx-auto">
+                            <a href="/contact" className="btn btn-primary mx-auto">
                                 Let's get started
                             </a>
                         </div>

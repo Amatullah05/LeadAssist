@@ -1,6 +1,7 @@
 import React from 'react'
 import './Logos.css'
-import Marquee from "react-fast-marquee";
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Autoplay, FreeMode } from 'swiper/modules'
 import Logo1 from '../../assets/images/Logo-1.png'
 import Logo2 from '../../assets/images/Logo-2.png'
 import Logo3 from '../../assets/images/Logo-3.png'
@@ -11,53 +12,66 @@ import Logo7 from '../../assets/images/Logo-7.png'
 
 const Logos = () => {
   return (
-    <section className="client-logos">
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-            <Marquee gradient={false} speed={50}>
-              <div className="d-flex flex-wrap justify-content-center align-items-center gap-5">
-                <div className="logo-container">
-                  <div className="d-flex flex-column align-items-center">
-                    <img src={Logo1} alt="Citcon" />
-                  </div>
+    <section className="client-logos overflow-hidden">
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <Swiper
+              modules={[Autoplay, FreeMode]}
+              freeMode={true}
+              loop={true}
+              autoplay={{ delay: 0, disableOnInteraction: false }}
+              speed={5000}
+              slidesPerView={2}
+              spaceBetween={40}
+              breakpoints={{
+                576: { slidesPerView: 3 },
+                768: { slidesPerView: 4 },
+                992: { slidesPerView: 5 },
+                1200: { slidesPerView: 6 }
+              }}
+              className="client-logo-carousel overflow-visible"
+            >
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo1} alt="Citcon" />
                 </div>
-                <div className="logo-container">
-                  <div className="d-flex flex-column align-items-center">
-                    <img src={Logo2} alt="Cemtrex" />
-                  </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo2} alt="Cemtrex" />
                 </div>
-                <div className="logo-container">
-                  <div className="d-flex flex-column align-items-center">
-                    <img src={Logo3} alt="Born Bred" />
-                  </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo3} alt="Born Bred" />
                 </div>
-                <div className="logo-container">
-                  <div className="d-flex flex-column align-items-center">
-                    <img src={Logo4} alt="CitrusAd" />
-                  </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo4} alt="CitrusAd" />
                 </div>
-                <div className="logo-container">
-                  <div className="d-flex flex-column align-items-center">
-                    <img src={Logo5} alt="Berkeley" />
-                  </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo5} alt="Berkeley" />
                 </div>
-                <div className="logo-container">
-                  <div className="d-flex flex-column align-items-center">
-                    <img src={Logo6} alt="Digital Knights" />
-                  </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo6} alt="Digital Knights" />
                 </div>
-                <div className="logo-container">
-                  <div className="d-flex flex-column align-items-center">
-                    <img src={Logo7} alt="Digital Knights" />
-                  </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo7} alt="Digital Knights" />
                 </div>
-              </div>
-              </Marquee>
-            </div>
+              </SwiperSlide>
+            </Swiper>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
   )
 }
 

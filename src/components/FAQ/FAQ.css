@@ -54,7 +54,7 @@
 .accordion-button::after {
   display: none;
 }
-@media (max-width: 767.98px){
+@media (max-width: 767px){
     .faq-section {
     padding: 60px 0;
   }

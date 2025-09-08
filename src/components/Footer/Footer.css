@@ -1,0 +1,60 @@
+
+
+/* Footer Styles */
+
+.footer-bottom-section {
+    padding-top: 48px;
+  }
+  
+  .footer-bottom-section .border-bottom {
+    margin-block: 48px;
+  }
+  
+  .phone-number,
+  .email {
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+  }
+  
+  .linkedin-badge {
+    background: #fff;
+    border-radius: 32px;
+    /* fully rounded pill */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    padding: 10px;
+    min-width: 210px;
+  }
+  
+  .linkedin-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(79, 92, 98);
+  }
+  
+  
+  .footer-legal-social {
+    font-size: 14px;
+    color: rgb(79, 92, 98);
+  }
+  
+  .legal-links {
+    gap: 24px;
+  }
+  
+  .legal-links .legal-link {
+    text-decoration: none;
+    color: rgb(79, 92, 98);
+    font-size: 16px;
+  }
+  
+  .legal-links .legal-link:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    gap: 12px;
+  }
+  
+  .social-circle:hover {
+    background-color: #dce3ea;
+  }
