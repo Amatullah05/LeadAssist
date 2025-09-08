@@ -10,6 +10,7 @@ import Testimonials from '../../components/Testimonials/Testimonials';
 import Leads from '../../components/Leads/Leads';
 import Logos from '../../components/Client Logos/Logos';
 import HeroSection from '../../components/Hero Section/HeroSection';
+import CTA2 from '../../components/CTA2/CTA2';
 
 const Home = () => {
   return (
@@ -43,7 +44,8 @@ const Home = () => {
 
       {/* FAQ Section */}
       <Faq/>
-
+      {/* CTA2 Section */}
+      <CTA2/>
       {/* Footer */}
       <Footer/>
     </div>

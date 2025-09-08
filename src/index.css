@@ -130,50 +130,19 @@ p{
   color: var(--text-dark);
   text-decoration: none;
 }
+/* Footer Styles */
 
-/* FooterSection.css */
-.footer-section {
-  padding: 80px 0 40px;
-  background-color: white;
+.footer-bottom-section {
+  padding-top: 48px;
 }
 
 .footer-bottom-section .border-bottom{
-  margin-block: 30px;
+  margin-block: 48px;
 }
-.footer-title {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #000;
-  line-height: 1.2;
-}
-.footer-description {
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  color: #6c757d;
-  line-height: 1.6;
-  max-width: 500px;
-}
-.btn-icon {
-  width: 20px;
-  height: 20px;
-}
-
-
-
-.footer-bottom-section {
-  border-top: 1px solid #eee;
-}
-
-.company-name {
-  font-size: 18px;
-  color: #000;
-}
-
 .phone-number,
 .email {
   font-size: 16px;
-  color: #333;
+  color: rgb(61, 61, 61);
 }
 
 .linkedin-badge {
@@ -197,13 +166,15 @@ p{
 
 .footer-legal-social {
   font-size: 14px;
-  color: #555;
+  color: rgb(79, 92, 98);
 }
-
+.legal-links{
+  gap: 24px;
+}
 .legal-links .legal-link {
   text-decoration: none;
-  color: #444;
-  font-size: 14px;
+  color: rgb(79, 92, 98);
+  font-size: 16px;
 }
 
 .legal-links .legal-link:hover {
