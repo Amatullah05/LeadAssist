@@ -10,10 +10,10 @@ const Testimonials = () => {
     return (
         <section className="testimonials-section overflow-hidden">
             <div className="container">
-                <div className="row row-gap-35">
+                <div className="row row-gap-50">
                     <div className="col-md-7">
                         <h2 className="main-h2 mb-3">Businesses stand out with us</h2>
-                        <p>Check out how other companies power-up their sales through increasing brand
+                        <p className="mb-0">Check out how other companies power-up their sales through increasing brand
                             awareness and growing their LinkedIn audience.</p>
                     </div>
                     <div className="col-12">
@@ -37,7 +37,7 @@ const Testimonials = () => {
                                                 />
                                             </div>
                                             <div className="testimonial-content-col">
-                                                <div className="testimonial-header d-flex align-items-center">
+                                                <div className="testimonial-header d-flex align-items-center gap-20">
                                                     <div className="author-info">
                                                         <h3 className="author-name">{t.name}</h3>
                                                         <p className="author-designation">{t.position}{t.company ? ` at ${t.company}` : ''}</p>
@@ -55,9 +55,11 @@ const Testimonials = () => {
                                 ))}
                             </Swiper>
                         </div>
+                    </div>
+                    <div className="col-12">
                         <a
                             href="https://calendly.com/meetings-leadassist/15-min-discovery-call"
-                            className="btn btn-primary m-auto animate-fade-in-up"
+                            className="btn btn-secondary m-auto animate-fade-in-up"
                             style={{ '--animation-delay': '0.4s' }}
                             target="_blank"
                             rel="noopener noreferrer"

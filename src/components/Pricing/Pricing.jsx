@@ -14,8 +14,8 @@ const Pricing = () => {
   return (
     <section className="pricing-section-new" id="pricing">
       <div className="container">
-        <div className="row mb-5">
-          <div className="col-12 text-center">
+        <div className="row mb-5 justify-content-center">
+          <div className="col-lg-6 text-center">
             <h2 className="main-h2 pricing-main-title">Crush your sales quota with Leadassist</h2>
             <p className="pricing-main-subtitle">
               Find out how our team can help you boost your sales and choose the best growth 
@@ -26,7 +26,7 @@ const Pricing = () => {
 
         <div className="row g-4 justify-content-center">
           {/* Growth Plan */}
-          <div className="col-lg-6 col-xl-5">
+          <div className="col-lg-6">
             <div className="pricing-plan-card">
               <div className="plan-header">
                 <div className="plan-badge">
@@ -116,7 +116,7 @@ const Pricing = () => {
           </div>
 
           {/* Growth Plus Plan */}
-          <div className="col-lg-6 col-xl-5">
+          <div className="col-lg-6">
             <div className="pricing-plan-card">
               <div className="plan-header">
                 <div className="plan-badge">

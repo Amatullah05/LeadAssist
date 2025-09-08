@@ -24,9 +24,9 @@
 }
 
 .testimonial-header {
-    margin-bottom: 2rem;
-    gap: 1rem;
+    margin-bottom: 17px;
     border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 17px;
 }
 
 .author-info {

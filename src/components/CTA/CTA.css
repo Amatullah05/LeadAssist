@@ -36,11 +36,6 @@
   margin-bottom: 1.5rem;
 }
 
-.cta-description {
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 @media (max-width: 767px){
      .cta-section {
     padding: 80px 20px;

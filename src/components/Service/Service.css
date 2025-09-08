@@ -1,34 +1,28 @@
-/* Services Section */
 .services-section {
-  padding: 100px 0;
+    padding-block: 100px 150px;
 }
 
 .service-card {
-  padding: 40px 10px;
-  height: 100%;
+    padding: 40px 10px;
+    height: 100%;
 }
 
 
 .service-card h3 {
-  margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .service-card p {
-  margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: #363636;
+    font-weight: 600;
 }
-.service-card .list-unstyled{
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  flex-direction: column;
+.service-card .list-item {
+    padding-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75em;
 }
-.service-card .list-unstyled .list-item .list-icon svg{
-  fill: #FF7F00;
-  transition: fill 0.3s ease;
-
-}
-.service-card .list-unstyled .list-item .list-text{
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 28px;
+.service-card .list-item::marker {
+    content: url("../../assets/images/list-arr.svg");
 }
