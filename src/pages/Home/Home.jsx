@@ -3,7 +3,7 @@ import Navbar from '../../components/Shared/Navbar'
 import Footer from '../../components/Shared/Footer';
 import Faq from '../../components/FAQ/FAQ';
 import Partnership from '../../components/Partnership/Partnership';
-import Pricing from '../../components/Pricing/Pricing,';
+import Pricing from '../../components/Pricing/Pricing';
 import CTA from '../../components/CTA/CTA';
 import Service from '../../components/Service/Service';
 import Testimonials from '../../components/Testimonials/Testimonials';
@@ -33,13 +33,13 @@ const Home = () => {
       <Service/>
 
       {/* Ready to Start Section */}
-    <CTA/>
+      <CTA/>
 
       {/* Pricing Section */}
       <Pricing/>
 
       {/* Partnership Fit Section */}
-    <Partnership/>
+      <Partnership/>
 
       {/* FAQ Section */}
       <Faq/>

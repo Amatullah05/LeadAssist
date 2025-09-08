@@ -1,4 +1,5 @@
 import React from 'react';
+import './Partnership.css'
 import Badge from '../../assets/images/Badge.svg';
 
 const PartnershipSection = () => {

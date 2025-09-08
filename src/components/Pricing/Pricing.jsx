@@ -1,4 +1,5 @@
 import React from 'react';
+import './Pricing.css'
 import Profile from '../../assets/images/Profile.svg'
 import Connect from '../../assets/images/Connect.svg'
 import Email from '../../assets/images/Emails.svg'

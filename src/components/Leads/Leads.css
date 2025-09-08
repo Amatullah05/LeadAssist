@@ -1,0 +1,155 @@
+/* Stats Section */
+.leads-hero-section {
+  position: relative;
+  padding: 0;
+  margin: 40px 20px;
+  overflow: hidden;
+}
+
+.yellow-circle img {
+  position: relative;
+  top: 169px;
+  left: 721px;
+}
+.leads-container {
+  background:url(../../assets/images/Mask-group-1.png) no-repeat center;
+  padding: 60px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  border-radius: 24px;
+}
+
+.leads-content {
+  position: relative;
+  z-index: 2;
+}
+
+.leads-subtitle {
+  line-height: 1.6;
+  margin-bottom: 2.5rem;
+  color: var(--text-light);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #161616;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 24px;
+  gap: 40px;
+  padding: 65px 65px 50px 65px;
+  position: relative;
+  z-index: 3;
+}
+
+.stat-item:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--white);
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: var(--text-light);
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
+@media (max-width: 991.98px){
+    .leads-hero-section {
+    margin: 30px 15px;
+  }
+
+  .leads-container {
+    padding: 40px 30px;
+  }
+
+  .leads-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .leads-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+  }
+
+  .stats-grid {
+    margin-top: 3rem;
+    gap: 1.5rem;
+  }
+ .yellow-circle {
+    top: -30px;
+    right: -30px;
+  }
+}
+@media (max-width: 767.98px) {
+     .leads-hero-section {
+    margin: 20px 10px;
+  }
+
+  .leads-container {
+    padding: 30px 20px;
+  }
+
+  .leads-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .leads-subtitle {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .stat-item {
+    padding: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+  }
+  
+  .yellow-circle {
+    top: -25px;
+    right: -25px;
+  }
+}
+@media (max-width: 575.98px){
+      .leads-container {
+    padding: 25px 15px;
+  }
+
+  .leads-title {
+    font-size: 1.75rem;
+  }
+
+  .stats-grid {
+    margin-top: 2rem;
+  }
+    .yellow-circle {
+    top: -20px;
+    right: -20px;
+  }
+}

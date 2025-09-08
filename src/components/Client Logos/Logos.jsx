@@ -1,4 +1,5 @@
 import React from 'react'
+import './Logos.css'
 import Marquee from "react-fast-marquee";
 import Logo1 from '../../assets/images/Logo-1.png'
 import Logo2 from '../../assets/images/Logo-2.png'

@@ -1,5 +1,7 @@
 import React from 'react'
 import BannerImg from '../../assets/images/Banner-Img.png'
+import { FaArrowRightLong } from "react-icons/fa6";
+import './HeroSection.css'
 
 const HeroSection = () => {
   return (
@@ -8,10 +10,10 @@ const HeroSection = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="hero-content">
-                <h1 className="main-h1 animate-fade-in-up">
-                  Reach and engage leads via LinkedIn
+                <h1 className="main-h1">
+                  Reach and <br /> engage leads via LinkedIn
                 </h1>
-                <p className="animate-fade-in-up" style={{'--animation-delay': '0.2s'}}>
+                <p>
                   We deliver 100–400+ qualified appointments in a year through tailored linkedin strategies.
                 </p>
                 <a 
@@ -21,12 +23,12 @@ const HeroSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Book a call →
+                  Book a call <FaArrowRightLong />
                 </a>
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="text-center">
+              <div className="text-center bannner-img">
                 <img 
                   src={BannerImg}
                   alt="LinkedIn Lead Generation" 

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import PlusIcon from '../../assets/images/Plus-Icon.svg';
 import MinusIcon from '../../assets/images/Minus-Icon.svg';
+import './FAQ.css'
 
 
 const Faq = () => {

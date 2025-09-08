@@ -1,6 +1,7 @@
 
 import LeftVector from '../../assets/images/CTA-Mask-1.png';
 import RightVector from '../../assets/images/CTA-Mask-2.png';
+import './CTA.css'
 
 const CTA = () => {
   return (

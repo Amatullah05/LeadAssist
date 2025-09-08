@@ -6,7 +6,7 @@ import LinkedinIcon from '../../assets/images/Linkedin.svg';
 import TwitterIcon from '../../assets/images/Twiiter.svg';
 import FacebookIcon from '../../assets/images/Facebook.svg';
 import InstagramIcon from '../../assets/images/Instagram.svg';
-import LinkedinBtn from '../../assets/images/Linkedin-btn.png';
+import LinkedinBtn from '../../assets/images/LnLogo.svg';
 import LeadassistLogo from '../../assets/images/Logo.svg';
 
 const FooterSection = () => {
@@ -21,7 +21,8 @@ const FooterSection = () => {
   const socialMedia = [
     { icon: TwitterIcon, href: "https://twitter.com/leadassist", alt: "Twitter" },
     { icon: FacebookIcon, href: "https://facebook.com/leadassist", alt: "Facebook" },
-    { icon: InstagramIcon, href: "https://instagram.com/leadassist", alt: "Instagram" }
+    { icon: InstagramIcon, href: "https://instagram.com/leadassist", alt: "Instagram" },
+    { icon: LinkedinIcon, href: "https://linkedin.com/company/leadassist", alt: "LinkedIn" }
   ];
 
   return (
@@ -45,62 +46,71 @@ const FooterSection = () => {
           </div>
         </div>
         
+
+
         {/* Bottom Section: Company info and links */}
-        <div className="row footer-bottom-section">
-          <div className="col-md-6 mb-4 mb-md-0">
-            <div className="company-info">
-              <img src={LeadassistLogo} alt="LeadAssist" className="company-logo mb-3" />
-              <div className="contact-details">
-                <p className="phone-number">+91-9772565365</p>
-                <p className="email">friends@leadassist.co</p>
-              </div>
+<div className="container py-3 footer-bottom-section">
+  <div className="row align-items-center">
+    {/* Left - Logo + Name */}
+    <div className="col-12 col-md-4 d-flex align-items-center mb-3 mb-md-0">
+      <img src={LeadassistLogo} alt="LeadAssist" className="company-logo me-2" />
+    </div>
+
+    {/* Center - Contact Info */}
+    <div className="col-12 col-md-4 text-center mb-3 mb-md-0">
+      <span className="me-3 phone-number">+91-9772565365</span>
+      <span className="email">friends@leadassist.co</span>
+    </div>
+
+    {/* Right - LinkedIn Partner */}
+    <div className="col-12 col-md-4 d-flex justify-content-md-end justify-content-center">
+      <div className="linkedin-badge d-flex align-items-center justify-content-center">
+        <img src={LinkedinBtn} alt="LinkedIn" className="linkedin-icon me-2" />
+        <span className="linkedin-text">Partner</span>
+      </div>
+    </div>
+  </div>
+
+  <div className='border-bottom'></div>
+  
+  {/* Second Row - Social Media, Copyright and Legal Links */}
+<div className="container footer-legal-social py-3">
+  <div className="row align-items-center">
+    {/* Left - Copyright & Legal Links */}
+    <div className="col-12 col-md-8 mb-3 mb-md-0">
+      <div className="copyright mb-2">
+        © 2025 Leadassist. All rights reserved.
+      </div>
+      <div className="legal-links d-flex flex-wrap gap-3">
+        {legalLinks.map((link, index) => (
+          <a key={index} href={link.href} className="legal-link">
+            {link.text}
+          </a>
+        ))}
+      </div>
+    </div>
+
+    {/* Right - Social Media Icons */}
+    <div className="col-12 col-md-4 d-flex justify-content-md-end justify-content-start">
+      <div className="social-icons d-flex gap-3">
+        {socialMedia.map((social, index) => (
+          <a
+            key={index}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="social-icon-link"
+          >
+            <div className="d-flex align-items-center justify-content-center">
+              <img src={social.icon} alt={social.alt} className="social-icon" />
             </div>
-          </div>
-          
-          <div className="col-md-6">
-            <div className="social-legal-section">
-              {/* Top part: LinkedIn Partner button */}
-              <div className="linkedin-partner-section mb-4">
-                <div className="linkedin-label mb-2">LinkedIn Partner</div>
-                <img src={LinkedinBtn} alt="LinkedIn Button" className="linkedin-btn" />
-              </div>
-              
-              {/* Middle part: Social media icons */}
-              <div className="social-media-section mb-4 pb-4 border-bottom">
-                <div className="social-icons">
-                  {socialMedia.map((social, index) => (
-                    <a 
-                      key={index}
-                      href={social.href} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="social-icon-link"
-                    >
-                      <img src={social.icon} alt={social.alt} className="social-icon" />
-                    </a>
-                  ))}
-                </div>
-              </div>
-              
-              {/* Bottom part: Copyright and legal links */}
-              <div className="footer-bottom">
-                <div className="copyright mb-2">
-                  © 2025 Leadassist. All right reserved.
-                </div>
-                <div className="legal-links">
-                  {legalLinks.map((link, index) => (
-                    <React.Fragment key={index}>
-                      <a href={link.href} className="legal-link">
-                        {link.text}
-                      </a>
-                      {index < legalLinks.length - 1 && <span className="link-separator">|</span>}
-                    </React.Fragment>
-                  ))}
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
       </div>
     </footer>
   );

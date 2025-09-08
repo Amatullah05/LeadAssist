@@ -1,63 +1,4 @@
-
-
-/* Responsive Design */
-@media (max-width: 1199.98px) {
-  .hero-container {
-    padding: 50px 40px;
-  }
-
-  .hero-title {
-    font-size: 3rem;
-  }
-
-  .yellow-circle {
-    top: -40px;
-    right: -40px;
-  }
-  .pricing-main-title {
-    font-size: 2.5rem;
-  }
-}
-
 @media (max-width: 991.98px) {
-  .leads-hero-section {
-    margin: 30px 15px;
-  }
-
-  .leads-container {
-    padding: 40px 30px;
-  }
-
-  .leads-title {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-  }
-
-  .leads-subtitle {
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-  }
-
-  .stats-grid {
-    margin-top: 3rem;
-    gap: 1.5rem;
-  }
-
-  .yellow-circle {
-    top: -30px;
-    right: -30px;
-  }
-  .pricing-section-new {
-    padding: 60px 0;
-  }
-
-  .pricing-main-title {
-    font-size: 2.2rem;
-  }
-
-  .pricing-main-subtitle {
-    font-size: 1rem;
-  }
   .footer-title {
     font-size: 2rem;
   }
@@ -68,147 +9,13 @@
 }
 
 @media (max-width: 767.98px) {
-  .hero-content h1 {
-    font-size: 2.5rem;
-  }
 
-  .hero-content p {
-    font-size: 1.1rem;
-  }
-
-  .stat-number {
-    font-size: 2.5rem;
-  }
-
-  .pricing-card.featured {
-    transform: none;
-  }
-
-  .leads-hero-section {
-    margin: 20px 10px;
-  }
-
-  .leads-container {
-    padding: 30px 20px;
-  }
-
-  .leads-title {
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .leads-subtitle {
-    font-size: 1rem;
-    text-align: center;
-  }
-
-  .stats-grid {
-    grid-template-columns: 1fr;
-    gap: 1rem;
-    margin-top: 2.5rem;
-  }
-
-  .stat-item {
-    padding: 1.5rem;
-  }
-
-  .stat-number {
-    font-size: 2rem;
-  }
-
-  .stat-label {
-    font-size: 0.85rem;
-  }
-
-  .yellow-circle {
-    top: -25px;
-    right: -25px;
-  }
-  .pricing-section-new {
-    padding: 50px 0;
-  }
-
-  .pricing-main-title {
-    font-size: 1.8rem;
-    text-align: center;
-  }
-
-  .pricing-main-subtitle {
-    font-size: 0.95rem;
-  }
-
-  .pricing-plan-card {
-    padding: 1.5rem;
-  }
-
-  .plan-footer {
-    margin: -1.5rem -1.5rem -1.5rem -1.5rem;
-    padding: 1.25rem 1.5rem;
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
-  }
-
-  .pay-now-btn {
-    width: 100%;
-    justify-content: center;
-  }
-
-.partnership-section {
-    padding: 60px 0;
-  }
-  
-  .partnership-title {
-    font-size: 2rem;
-  }
-  
-  .partnership-subtitle {
-    font-size: 1rem;
-  }
-  
-  .partnership-list {
-    font-size: 1rem;
-  }
-  
-  .card-header-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .star-icon {
-    margin-top: 1rem;
-    align-self: flex-end;
-  }
-
-  .faq-section {
-    padding: 60px 0;
-  }
-  
-  .accordion-button {
-    font-size: 1rem;
-    padding: 1.25rem 0.5rem 1.25rem 0;
-  }
-  
-  .accordion-body {
-    padding: 0 0 1.25rem 2rem;
-  }
-  
-  .accordion-icon {
-    margin-right: 12px;
-    width: 20px;
-    height: 20px;
-  }
   .footer-section {
     padding: 60px 0 30px;
   }
   
   .footer-title {
     font-size: 1.8rem;
-  }
-  
-  .btn-primary {
-    padding: 14px 28px;
-    font-size: 16px;
   }
   
   .footer-bottom-section {
@@ -222,66 +29,10 @@
   .legal-links {
     justify-content: center;
   }
-   .cta-section {
-    padding: 80px 20px;
-  }
-  
-  .cta-title {
-    font-size: 2rem;
-  }
-  
-  .cta-button {
-    padding: 14px 28px;
-    font-size: 16px;
-  }
-  
-  .cta-vector-left,
-  .cta-vector-right {
-    max-width: 100px;
-  }
 }
 
 @media (max-width: 575.98px) {
-  .leads-container {
-    padding: 25px 15px;
-  }
 
-  .leads-title {
-    font-size: 1.75rem;
-  }
-
-  .stats-grid {
-    margin-top: 2rem;
-  }
-
-  .yellow-circle {
-    top: -20px;
-    right: -20px;
-  }
-  .pricing-plan-card {
-    padding: 1.25rem;
-  }
-
-  .pricing-main-title {
-    font-size: 1.6rem;
-  }
-
-  .feature-item {
-    margin-bottom: 0.75rem;
-  }
-
-  .feature-content strong {
-    font-size: 0.85rem;
-  }
-
-  .feature-content span {
-    font-size: 0.8rem;
-  }
-
-  .plan-footer {
-    margin: -1.25rem -1.25rem -1.25rem -1.25rem;
-    padding: 1rem 1.25rem;
-  }
   .footer-title {
     font-size: 1.5rem;
   }
@@ -296,28 +47,6 @@
   }
   
   .link-separator {
-    display: none;
-  }
-  .cta-section {
-    padding: 60px 15px;
-  }
-  
-  .cta-title {
-    font-size: 1.8rem;
-  }
-  
-  .cta-description {
-    font-size: 1rem;
-  }
-  
-  .cta-button {
-    width: 100%;
-    max-width: 300px;
-  }
-  
-  /* Hide vectors on very small screens if they crowd the content */
-  .cta-vector-left,
-  .cta-vector-right {
     display: none;
   }
 }

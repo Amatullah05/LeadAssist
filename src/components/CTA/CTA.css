@@ -1,0 +1,86 @@
+/* CTA Section */
+.cta-background {
+  background: url('../../assets/images/Group-39982-1.png') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  padding: 100px 20px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 24px;
+  z-index: 0;
+}
+
+.cta-vector {
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.cta-vector-left {
+  left: 0;
+  top: -12px;
+}
+
+.cta-vector-right {
+  right: 0;
+  bottom: -12px;
+}
+
+.vector-image {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+}
+
+.cta-title {
+  margin-bottom: 1.5rem;
+}
+
+.cta-description {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767.98px){
+     .cta-section {
+    padding: 80px 20px;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+  }
+  
+  .cta-button {
+    padding: 14px 28px;
+    font-size: 16px;
+  }
+  
+  .cta-vector-left,
+  .cta-vector-right {
+    max-width: 100px;
+  }
+}
+@media (max-width: 575.98px){
+    .cta-section {
+    padding: 60px 15px;
+  }
+  
+  .cta-title {
+    font-size: 1.8rem;
+  }
+  
+  .cta-description {
+    font-size: 1rem;
+  }
+  
+  .cta-button {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  /* Hide vectors on very small screens if they crowd the content */
+  .cta-vector-left,
+  .cta-vector-right {
+    display: none;
+  }
+}

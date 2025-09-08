@@ -1,4 +1,5 @@
 import React from 'react';
+import './Leads.css'
 import YellowCircle from '../../assets/images/Yellow-circle.png';
 
 const Leads = () => {
