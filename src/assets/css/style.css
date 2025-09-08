@@ -31,6 +31,10 @@ body {
   max-width: 1200px;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Typography */
 .text-primary {
   color: var(--color-black) !important;
@@ -76,8 +80,9 @@ p {
 
 /* Button Styles */
 .btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
   border-radius: 6px;
   font-weight: 600;
@@ -87,6 +92,7 @@ p {
   line-height: 1.33em;
   text-decoration: none;
   transition: all 0.1s ease;
+  max-width: max-content
 }
 
 @media (max-width:767px) {
