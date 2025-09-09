@@ -8,7 +8,7 @@ import BtnArrow from "../../assets/images/btn-arr.svg";
 
 const Testimonials = () => {
     return (
-        <section className="testimonials-section overflow-hidden">
+        <section id="testimonials" className="testimonials-section overflow-hidden">
             <div className="container">
                 <div className="row row-gap-50">
                     <div className="col-lg-7 col-md-10">

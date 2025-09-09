@@ -5,7 +5,7 @@ import BtnArrow from "../../assets/images/btn-arr.svg";
 
 const HeroSection = () => {
     return (
-        <section className="hero-section">
+        <section id="top" className="hero-section">
             <div className="container">
                 <div className="row align-items-center justify-content-lg-start justify-content-center row-gap-50">
                     <div className="col-lg-6 col-md-9">

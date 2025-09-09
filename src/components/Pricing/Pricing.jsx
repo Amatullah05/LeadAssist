@@ -12,7 +12,7 @@ import Growthicon from '../../assets/images/GrowthPlus-Icon.svg'
 
 const Pricing = () => {
     return (
-        <section className="pricing-section-new" id="pricing">
+        <section id="pricing" className="pricing-section-new">
             <div className="container">
                 <div className="row mb-5 justify-content-center">
                     <div className="col-lg-6 text-center">
