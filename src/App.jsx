@@ -1,6 +1,6 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import "./assets/css/responsive.css"
 import "./assets/css/style.css"
+import "./assets/css/responsive.css"
 import 'swiper/css'
 import 'swiper/css/free-mode'
 import Home from "./pages/Home/Home";

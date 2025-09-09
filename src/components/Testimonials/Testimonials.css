@@ -55,16 +55,15 @@
 
 /* Responsive Design */
 @media (max-width: 991px) {
-    .testimonial-content-container {
-        padding: 2.5rem 2rem;
+    .testimonial-image-col {
+        width: 45%;
+    }
+    .testimonial-content-col {
+        width: 55%;
     }
 
     .testimonial-quote {
-        font-size: 1.25rem;
-    }
-
-    .author-name {
-        font-size: 1.3rem;
+        font-size: 22px;
     }
 }
 

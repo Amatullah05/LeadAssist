@@ -11,7 +11,7 @@ const Testimonials = () => {
         <section className="testimonials-section overflow-hidden">
             <div className="container">
                 <div className="row row-gap-50">
-                    <div className="col-md-7">
+                    <div className="col-lg-7 col-md-10">
                         <h2 className="main-h2 mb-3">Businesses stand out with us</h2>
                         <p className="mb-0">Check out how other companies power-up their sales through increasing brand
                             awareness and growing their LinkedIn audience.</p>

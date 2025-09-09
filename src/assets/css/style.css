@@ -73,10 +73,7 @@ img {
 }
 
 p {
-    font-weight: 400;
-    font-size: 18px;
     color: var(--color-gray);
-    line-height: 28px;
 }
 
 /* Button Styles */
@@ -249,4 +246,72 @@ p {
 
 .animate-fade-in-up {
     animation: fadeInUp 0.8s ease-out;
+}
+
+/* Pricing Section */
+
+
+.pricing-cols {
+    grid-template-columns: 1fr 1fr;
+}
+
+.pricing-card {
+    background: white;
+    border-radius: 16px;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.plan-header {
+    padding: 30px 40px 25px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.plan-badge img {
+    width: 30px;
+    height: 30px;
+    margin-block: -1px;
+}
+
+.plan-badge .populer-icon {
+    width: 32px;
+}
+
+.plan-badge h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.plan-description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+    min-height: 42px;
+}
+
+.plan-features {
+    flex: 1;
+    padding: 40px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.plan-footer {
+    background: linear-gradient(270deg, #FCE372 0%, #FFDA30 100%);
+    padding: 25px 55px 25px 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 98px;
+}
+
+.price-info {
+    font-size: 18px;
+    font-weight: 700;
 }

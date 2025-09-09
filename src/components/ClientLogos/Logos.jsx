@@ -67,6 +67,41 @@ const Logos = () => {
                   <img src={Logo7} alt="Digital Knights" />
                 </div>
               </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo1} alt="Citcon" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo2} alt="Cemtrex" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo3} alt="Born Bred" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo4} alt="CitrusAd" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo5} alt="Berkeley" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo6} alt="Digital Knights" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <img src={Logo7} alt="Digital Knights" />
+                </div>
+              </SwiperSlide>
             </Swiper>
           </div>
         </div>

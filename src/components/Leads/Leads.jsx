@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Leads.css'
 import BtnArrow from "../../assets/images/btn-arr.svg";
-import YellowCircle from '../../assets/images/Yellow-circle.png';
+import YellowCircle from '../../assets/images/stat-yellow-circle.png';
 
 const AnimatedCounter = ({ targetValue, durationMs = 1500, prefix = '', suffix = '', decimals = 0, startOnView = true }) => {
   const [displayValue, setDisplayValue] = useState(0);
@@ -70,17 +70,17 @@ const Leads = () => {
       <div className="container position-relative">
       <img src={YellowCircle} className="yellow-circle position-absolute" />
         <div className="leads-container">
-          <div className="row align-items-center g-4">
+          <div className="row align-items-center g-4 row-gap-30">
             {/* Left content */}
             <div className="col-lg-5">
-              <div className="leads-content">
+              <div className="leads-content text-lg-start text-center">
                 <h1 className="main-h2 text-white leads-title mb-4">Get leads from LinkedIn</h1>
                 <p className="text-light mb-4">
                   Seize the power of the largest professional network with Leadassist.
                 </p>
                 <a
                   href="https://calendly.com/meetings-leadassist/15-min-discovery-call"
-                  className="btn btn-primary"
+                  className="btn btn-primary mx-lg-0 mx-auto"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -91,7 +91,7 @@ const Leads = () => {
             
             {/* Right stats */}
             <div className="col-lg-7">
-              <div className="stats-grid d-flex justify-content-between">
+              <div className="stats-grid d-flex flex-md-row flex-column justify-content-between gap-30">
                 <div className="stat-item d-flex flex-column align-items-center">
                   <div className="stat-number">
                     <AnimatedCounter targetValue={200} suffix="+" />

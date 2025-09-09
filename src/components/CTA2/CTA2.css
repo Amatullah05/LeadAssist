@@ -1,30 +1,16 @@
 /* CTA2.css */
 .cta2-section {
-  padding: 80px 0 40px;
-  background-color:rgb(231, 237, 240);
-}
-.cta2-content{
-  position: relative;
+    padding-block: 120px;
+    background-color: rgb(231, 237, 240);
 }
 
-.cta2-title {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #000;
-  line-height: 1.2;
-}
-.cta2-description {
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
-  color: #6c757d;
-  line-height: 1.6;
-  max-width: 500px;
-}
-.cta2-yellow-circle{
-  position: absolute;
-  width: 161px;
-    bottom: -167px;
-    left: -70px;
+.cta2-content {
+    position: relative;
 }
 
+.cta2-yellow-circle {
+    position: absolute;
+    width: 161px;
+    left: 0px;
+    bottom: 0px;
+}

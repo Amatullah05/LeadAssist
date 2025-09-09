@@ -2,7 +2,7 @@
 .leads-hero-section {
     position: relative;
     padding: 0;
-    margin-block: 150px;
+    padding-block: 150px;
 }
 
 .yellow-circle {
@@ -14,8 +14,9 @@
 .leads-container {
     background-image: url(../../assets/images/Mask-group-1.png);
     padding: 50px 60px;
-    border-radius: 24px;
+    border-radius: 25px;
     background-size: cover;
+    background-position: center;
     position: relative;
     z-index: 1;
 }
@@ -55,11 +56,11 @@
 
 @media (max-width: 991px) {
     .leads-hero-section {
-        margin: 30px 15px;
+        padding-block: 150px 90px;
     }
 
     .leads-container {
-        padding: 40px 30px;
+        padding: 60px 30px;
     }
 
     .leads-title {
@@ -67,29 +68,18 @@
         margin-bottom: 1rem;
     }
 
-    .leads-subtitle {
-        font-size: 1.1rem;
-        margin-bottom: 2rem;
-    }
-
-    .stats-grid {
-        margin-top: 3rem;
-        gap: 1.5rem;
-    }
-
     .yellow-circle {
-        top: -30px;
-        right: -30px;
+        right: 100px;
     }
 }
 
 @media (max-width: 767px) {
     .leads-hero-section {
-        margin: 20px 10px;
+        padding-block: 90px 60px;
     }
 
     .leads-container {
-        padding: 30px 20px;
+        padding: 50px 20px;
     }
 
     .leads-title {
@@ -97,50 +87,20 @@
         text-align: center;
     }
 
-    .leads-subtitle {
-        font-size: 1rem;
-        text-align: center;
-    }
-
     .stats-grid {
-        grid-template-columns: 1fr;
-        gap: 1rem;
-        margin-top: 2.5rem;
-    }
-
-    .stat-item {
-        padding: 1.5rem;
+        padding: 40px 30px;
     }
 
     .stat-number {
-        font-size: 2rem;
+        font-size: 40px;
     }
 
     .stat-label {
-        font-size: 0.85rem;
+        font-size: 14px;
     }
 
     .yellow-circle {
         top: -25px;
         right: -25px;
-    }
-}
-
-@media (max-width: 575px) {
-    .leads-container {
-        padding: 25px 15px;
-    }
-
-    .leads-title {
-        font-size: 1.75rem;
-    }
-
-    .stats-grid {
-        margin-top: 2rem;
-    }
-
-    .yellow-circle {
-        top: -20px;
-        right: -20px;
     }
 }

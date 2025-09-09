@@ -1,29 +1,26 @@
-/* Hero Section */
 .hero-section {
-  padding: 100px 0;
-  position: relative;
-  overflow: hidden;
+    padding: 100px 0;
+    position: relative;
+    overflow: hidden;
 }
-.hero-content .main-h1{
-  margin-bottom: 30px;
+
+.hero-content .main-h1 {
+    margin-bottom: 30px;
 }
+
 .hero-content p {
-  max-width: 600px;
-  margin-bottom: 30px;
+    max-width: 600px;
+    margin-bottom: 30px;
 }
 
-@media (max-width: 1199.98px){
-      .hero-container {
-    padding: 50px 40px;
-  }
-
-  .hero-title {
-    font-size: 3rem;
-  }
-
+@media (max-width: 991px) {
+    .hero-section {
+        padding: 80px 0;
+    }
 }
+
 @media (max-width: 767px) {
-  .hero-content p {
-    font-size: 1.1rem;
-  }
+    .hero-section {
+        padding: 60px 0 70px;
+    }
 }

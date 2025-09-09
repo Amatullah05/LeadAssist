@@ -1,148 +1,59 @@
 /* PartnershipSection.css */
-.partnership-section {
-  padding: 80px 0;
-
-}
-
-.partnership-subtitle {
-  margin: 0 auto;
-}
-
-/* Card Styles */
-.partnership-card {
-  border-radius: 1.5rem;
-  padding: 1.5rem;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  position: relative;
-  height: 100%;
-}
-
-.match-card {
-  background-color: #ffffff;
-  border: 1px solid #d1d5db;
-}
-
-.not-match-card {
-  background-color: #ffffff;
-  border: 1px solid #d1d5db;
+.star-badge {
+    right: 52px;
+    top: 0px;
 }
 
 .partnership-card-title {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  margin-bottom: 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
 }
 
 .bullet-point {
-  color: #ffda30;
-  font-size: 0.75rem;
-  margin-right: 0.5rem;
-}
-
-.card-header-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.card-border-bottom {
-  border-bottom: 1px solid #d1d5db;
-  margin-bottom: 2rem;
-}
-
-.partnership-list {
-  padding-left: 0;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  color: #4f5c62;
+    color: #ffda30;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
 }
 
 .list-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  font-weight: 700;
-  font-size: 1.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
-.checkmark {
-  color: #28a745;
-  background-color: rgba(40, 167, 69, 0.1);
+.plan-features .right,
+.plan-features .wrong {
+    padding-left: 0;
+    margin: 0;
 }
 
-.cross-mark {
-  color: #dc3545;
-  background-color: rgba(220, 53, 69, 0.1);
-}
-
-.partnership-card-footer-title {
-  font-family: "Inter", sans-serif;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
+.partnership-points-list span {
+    font-size: 14px;
+    line-height: 1.55em;
 }
 
 .not-match-footer {
-  margin-top: auto;
-  margin-bottom: 0;
-  text-align: center;
-  width: 100%;
+    background: #E7EDF0;
 }
 
-.card-footer-container {
-  margin-top: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.cta-button-leadassist {
-  display: block;
-  padding: 1rem 2rem;
-  background-color: #000;
-  color: #fff;
-  border-radius: 0.5rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  text-align: center;
-}
-
-.cta-button-leadassist:hover {
-  background-color: #333;
-  color: #fff;
-  text-decoration: none;
-  transform: translateY(-2px);
+.list-item span {
+    display: inline-block;
 }
 
 @media (max-width: 767px) {
     .partnership-section {
-    padding: 60px 0;
-  }
-  
-  .partnership-title {
-    font-size: 2rem;
-  }
-  
-  .partnership-subtitle {
-    font-size: 1rem;
-  }
-  
-  .partnership-list {
-    font-size: 1rem;
-  }
-  
-  .card-header-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .star-icon {
-    margin-top: 1rem;
-    align-self: flex-end;
-  }
+        padding: 60px 0;
+    }
+
+    .partnership-title {
+        font-size: 2rem;
+    }
 }

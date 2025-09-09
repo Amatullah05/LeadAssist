@@ -1,76 +1,72 @@
 /* FAQ Section */
 .faq-section {
-  padding: 80px 0;
+    padding-block: 120px 150px;
 }
 
-.accordion-item {
-  border: none;
-  border-bottom: 1px solid #e9ecef;
-  border-radius: 0 !important;
-  margin-bottom: 0;
+.faq-item {
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
 }
 
-.accordion-button {
-  background-color: transparent;
-  color: #212529;
-  font-weight: 500;
-  font-size: 1.1rem;
-  padding: 1.5rem 1rem 1.5rem 0;
-  border: none;
-  text-align: left;
-  display: flex;
-  align-items: flex-start;
+.faq-trigger {
+    width: 100%;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 25px;
+    border: none;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
 }
 
-.accordion-button:not(.collapsed) {
-  background-color: transparent;
-  color: #212529;
-  box-shadow: none;
+.faq-trigger:focus {
+    border-color: transparent;
+    box-shadow: none;
 }
 
-.accordion-button:focus {
-  border-color: transparent;
-  box-shadow: none;
+.faq-panel-body {
+    padding: 0px 85px 25px;
 }
 
-.accordion-body {
-  padding: 0 0 1.5rem 2rem;
-  color: #6c757d;
-  line-height: 1.7;
+.faq-panel {
+    display: block;
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: translateY(-4px);
+    transition: all 0.4s ease-in-out;
 }
 
-.accordion-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 24px;
-  height: 24px;
-  margin-right: 16px;
-  font-weight: 400;
-  font-size: 1.2rem;
-  color: #000;
-  flex-shrink: 0;
+.faq-panel.open {
+    max-height: 600px; /* large enough to fit content */
+    opacity: 1;
+    transform: translateY(0);
 }
-.accordion-button::after {
-  display: none;
+
+.faq-icon-img {
+    width: 30px;
+    min-width: 30px;
 }
-@media (max-width: 767px){
+
+@media (max-width: 767px) {
     .faq-section {
-    padding: 60px 0;
-  }
-  
-  .accordion-button {
-    font-size: 1rem;
-    padding: 1.25rem 0.5rem 1.25rem 0;
-  }
-  
-  .accordion-body {
-    padding: 0 0 1.25rem 2rem;
-  }
-  
-  .accordion-icon {
-    margin-right: 12px;
-    width: 20px;
-    height: 20px;
-  }
+        padding: 60px 0;
+    }
+
+    .accordion-button {
+        font-size: 1rem;
+        padding: 1.25rem 0.5rem 1.25rem 0;
+    }
+
+    .accordion-body {
+        padding: 0 0 1.25rem 2rem;
+    }
+
+    .accordion-icon {
+        margin-right: 12px;
+        width: 20px;
+        height: 20px;
+    }
 }
