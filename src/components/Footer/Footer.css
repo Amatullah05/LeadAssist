@@ -60,3 +60,80 @@
     font-size: 14px;
     color: var(--color-gray);
 }
+
+
+/* Desktop defaults (already working with flex row) */
+
+/* Tablet & Mobile (≤991px) */
+@media (max-width: 991px) {
+  /* Row 1 - Company info */
+  
+  .footer-row-1 {
+    flex-wrap: wrap;
+    justify-content: space-between; /* left + right */
+    row-gap: 20px;
+  }
+
+  .footer-row-1 > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .footer-row-1 .gap-30 {
+    gap: 15px;
+  }
+
+  .linkedin-badge {
+    margin-left: auto; /* push to right */
+  }
+
+  /* Row 2 - Copyright + links vs. Social */
+  .footer-section .col-12 {
+    flex-wrap: wrap;
+    justify-content: space-between; /* left + right */
+    gap: 20px;
+  }
+
+  .legal-links {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .social-icons {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+}
+
+/* Mobile (≤576px) */
+@media (max-width: 576px) {
+  /* Make it cleaner on small screens */
+  .footer-row-1 {
+    flex-direction: column;
+    align-items: flex-start; /* keep left aligned */
+    gap: 15px;
+  }
+
+  .linkedin-badge {
+    align-self: flex-end; /* stay right */
+  }
+
+  .footer-section .col-12 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .social-icons {
+    width: 100%;
+    justify-content: flex-end; /* stick to right */
+  }
+
+  .footer-row-1 .gap-30 {
+    gap: 15px;
+    margin-block: 10px;
+}
+}

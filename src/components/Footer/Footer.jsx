@@ -33,7 +33,7 @@ const FooterSection = () => {
             <div className="container d-flex flex-column gap-50">
                 <div className="row align-items-center">
                     {/* Left - Logo + Name */}
-                    <div className="col-12 d-flex align-items-center footer-row-1">
+                    <div className="col-12 d-flex align-items-start align-items-md-center footer-row-1">
                         <div>
                             <img src={LeadassistLogo} alt="LeadAssist" className="company-logo me-2" height="47" />
                         </div>

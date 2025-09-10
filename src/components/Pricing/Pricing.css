@@ -18,6 +18,11 @@
     font-size: 14px;
     line-height: 1.4;
 }
+.pricing-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
+  gap: 30px;
+}
 
 @media (max-width: 991px) {
     .pricing-section-new {
@@ -29,4 +34,7 @@
     .pricing-section-new {
         padding: 50px 0;
     }
+    .pricing-cols {
+    grid-template-columns: 1fr; /* 1 column on mobile */
+  }
 }
