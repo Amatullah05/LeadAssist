@@ -15,7 +15,7 @@ const PartnershipSection = () => {
                         <h2 className="main-h2 partnership-title mb-4">
                             Will our partnership bring results?
                         </h2>
-                        <p className="lead text-gray partnership-subtitle">
+                        <p className="text-gray partnership-subtitle">
                             To meet and exceed your expectations, we focus only on things we can guarantee.<br />
                             Check these items to see if we make a good fit.
                         </p>
