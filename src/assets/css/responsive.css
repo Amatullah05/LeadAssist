@@ -1,64 +1,80 @@
 @media (max-width: 991px) {
-  body {
-    font-size: 16px;
-  }
-  .main-h1 {
-      font-size: 45px;
-  }
-  .main-h2 {
-      font-size: 40px;
-  }
-  .btn {
-    font-size: 16px;
-  }
-  .footer-title {
-    font-size: 2rem;
-  }
-  
-  .footer-description {
-    font-size: 1.1rem;
-  }
-  .plan-header {
-    padding: 30px 20px 25px;
-}
-.plan-features{
-    padding: 40px 20px 40px;
-}
-.price-info {
-    font-size: 14px;
-}
-.plan-footer{
-  padding: 25px 20px 25px 20px;
-}
+    body {
+        font-size: 16px;
+    }
+
+    .main-h1 {
+        font-size: 45px;
+    }
+
+    .main-h2 {
+        font-size: 40px;
+    }
+
+    .btn {
+        font-size: 16px;
+    }
+
+    .footer-title {
+        font-size: 2rem;
+    }
+
+    .footer-description {
+        font-size: 1.1rem;
+    }
+
+    .pricing-cols {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 767px) {
-  body {
-    font-size: 14px;
-  }
-  .main-h1 {
-      font-size: 30px;
-  }
-  .main-h2 {
-      font-size: 32px;
-  }
-  .footer-section {
-    padding: 60px 0 30px;
-  }
-  
-  .footer-title {
-    font-size: 1.8rem;
-  }
-  
-  .footer-bottom-section {
-    text-align: center;
-  }
-  
-  .social-icons {
-    justify-content: center;
-  }
-  
-  .legal-links {
-    justify-content: center;
-  }
+    body {
+        font-size: 14px;
+    }
+
+    .main-h1 {
+        font-size: 30px;
+    }
+
+    .main-h2 {
+        font-size: 32px;
+    }
+    .btn {
+        padding: 15px 28px;
+    }
+    .footer-section {
+        padding: 60px 0 30px;
+    }
+
+    .footer-title {
+        font-size: 1.8rem;
+    }
+
+    .footer-bottom-section {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .legal-links {
+        justify-content: center;
+    }
+
+    .plan-header {
+        padding: 30px 20px 25px;
+    }
+
+    .plan-features {
+        padding: 40px 20px 40px;
+    }
+
+    .plan-footer {
+        padding: 25px 20px 25px 20px;
+        flex-direction: column;
+        align-items: start;
+        row-gap: 20px;
+    }
 }

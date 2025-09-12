@@ -52,4 +52,8 @@
     .partnership-title {
         font-size: 2rem;
     }
+    .star-badge {
+        width: 35px;
+        right: 35px;
+    }
 }

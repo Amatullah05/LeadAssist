@@ -33,13 +33,13 @@ const FooterSection = () => {
             <div className="container d-flex flex-column gap-50">
                 <div className="row align-items-center">
                     {/* Left - Logo + Name */}
-                    <div className="col-12 d-flex align-items-start align-items-md-center footer-row-1">
+                    <div className="col-12 footer-row-1 d-flex align-items-start align-items-md-center flex-wrap">
                         <div>
                             <img src={LeadassistLogo} alt="LeadAssist" className="company-logo me-2" height="47" />
                         </div>
 
                         {/* Center - Contact Info */}
-                        <div className="d-flex align-items-center gap-30">
+                        <div className="d-flex align-items-center gap-30 footer-cont-detail">
                             <span className="phone-number">+91-9772565365</span>
                             <span className="email">friends@leadassist.co</span>
                         </div>
@@ -59,12 +59,12 @@ const FooterSection = () => {
                 {/* Second Row - Social Media, Copyright and Legal Links */}
                 <div className="row align-items-center">
                     {/* Left - Copyright & Legal Links */}
-                    <div className="col-12 d-flex align-items-start align-items-lg-center justify-content-between gap-50">
-                        <div>
-                            <div className="copyright mb-2 pb-1">
+                    <div className="col-12 d-flex align-items-start align-items-lg-center justify-content-between gap-35 flex-lg-row flex-column">
+                        <div className="d-flex flex-md-column flex-column-reverse row-gap-15">
+                            <div className="copyright">
                                 © 2025 Leadassist. All rights reserved.
                             </div>
-                            <div className="legal-links d-flex flex-wrap">
+                            <div className="legal-links d-flex flex-md-row flex-column flex-wrap">
                                 {legalLinks.map((link, index) => (
                                     <a key={index} href={link.href} className="legal-link">
                                         {link.text}

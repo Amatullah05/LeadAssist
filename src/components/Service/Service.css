@@ -1,4 +1,3 @@
-
 .services-section {
     padding-block: 100px 150px;
 }
@@ -7,7 +6,6 @@
     padding: 40px 0px;
     height: 100%;
 }
-
 
 .service-card h3 {
     margin-bottom: 1.5rem;
@@ -18,6 +16,7 @@
     color: #363636;
     font-weight: 600;
 }
+
 .service-card .list-item {
     list-style: none;
     position: relative;
@@ -33,21 +32,25 @@
     width: 28px;
     height: 18px;
 }
-
-@media (max-width:991px){
-    .services-section {
-    padding-block: 100px 80px;
+.service-card .btn circle {
+    transition: all 0.3s ease;
 }
+.service-card .btn:hover circle {
+    fill-opacity: 0.15;
+}
+@media (max-width:991px) {
+    .services-section {
+        padding-block: 100px 80px;
+    }
 }
 
 
 @media (max-width: 767px) {
     .services-section {
-    padding-block: 80px 50px;
-}
+        padding-block: 80px 50px;
+    }
 
-    .service-card .list-item{
+    .service-card .list-item {
         font-size: 14px;
     }
-    
 }

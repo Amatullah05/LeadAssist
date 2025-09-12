@@ -40,7 +40,7 @@ const Faq = () => {
                             {faqData.map((faq, index) => (
                                 <div className="faq-item" key={index}>
                                     <button
-                                        className={`faq-trigger d-flex align-items-center gap-30 ${activeIndex === index ? 'is-open' : ''}`}
+                                        className={`faq-trigger d-flex flex-md-row flex-row-reverse align-items-center gap-30 ${activeIndex === index ? 'is-open' : ''}`}
                                         type="button"
                                         onClick={() => toggleAccordion(index)}
                                         aria-expanded={activeIndex === index ? 'true' : 'false'}

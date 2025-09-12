@@ -20,10 +20,11 @@ const Logos = () => {
               modules={[Autoplay, FreeMode]}
               freeMode={true}
               loop={true}
+              speed={2000}
               autoplay={{ delay: 0, disableOnInteraction: false }}
-              speed={5000}
               slidesPerView={2}
-              spaceBetween={40}
+              spaceBetween={50}
+              initialSlide={3}
               breakpoints={{
                 576: { slidesPerView: 3 },
                 768: { slidesPerView: 4 },
@@ -34,71 +35,127 @@ const Logos = () => {
             >
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Jan 2022</div>
                   <img src={Logo1} alt="Citcon" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Mar 2018</div>
                   <img src={Logo2} alt="Cemtrex" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Sep 2019</div>
                   <img src={Logo3} alt="Born Bred" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Dec 2021</div>
                   <img src={Logo4} alt="CitrusAd" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since June 2020</div>
                   <img src={Logo5} alt="Berkeley" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
-                  <img src={Logo6} alt="Digital Knights" />
+                  <div className="logo-date">Since May 2017</div>
+                  <img src={Logo6} alt="Mole Street" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Oct 2023</div>
                   <img src={Logo7} alt="Digital Knights" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Jan 2022</div>
                   <img src={Logo1} alt="Citcon" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Mar 2018</div>
                   <img src={Logo2} alt="Cemtrex" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Sep 2019</div>
                   <img src={Logo3} alt="Born Bred" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Dec 2021</div>
                   <img src={Logo4} alt="CitrusAd" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since June 2020</div>
                   <img src={Logo5} alt="Berkeley" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
-                  <img src={Logo6} alt="Digital Knights" />
+                  <div className="logo-date">Since May 2017</div>
+                  <img src={Logo6} alt="Mole Street" />
                 </div>
               </SwiperSlide>
               <SwiperSlide>
                 <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Oct 2023</div>
+                  <img src={Logo7} alt="Digital Knights" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Jan 2022</div>
+                  <img src={Logo1} alt="Citcon" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Mar 2018</div>
+                  <img src={Logo2} alt="Cemtrex" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Sep 2019</div>
+                  <img src={Logo3} alt="Born Bred" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Dec 2021</div>
+                  <img src={Logo4} alt="CitrusAd" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since June 2020</div>
+                  <img src={Logo5} alt="Berkeley" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since May 2017</div>
+                  <img src={Logo6} alt="Mole Street" />
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="logo-container d-flex flex-column align-items-center justify-content-center">
+                  <div className="logo-date">Since Oct 2023</div>
                   <img src={Logo7} alt="Digital Knights" />
                 </div>
               </SwiperSlide>

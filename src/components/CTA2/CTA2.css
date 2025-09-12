@@ -14,3 +14,14 @@
     left: 0px;
     bottom: 0px;
 }
+
+@media (max-width: 991px) {
+    .cta2-section {
+        padding-block: 90px;
+    }
+}
+@media (max-width: 767px) {
+    .cta2-section {
+        padding-block: 70px;
+    }
+}

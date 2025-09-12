@@ -1,10 +1,6 @@
 /* Client Logos */
-.client-logos {
-    padding: 60px 0;
-}
-
 .client-logo-carousel {
-    height: 75px;
+    height: 100px;
 }
 
 .client-logo-carousel .swiper-wrapper {
@@ -16,6 +12,8 @@
     align-items: center;
     justify-content: center;
     height: 100%;
+    overflow: visible;
+    padding-top: 30px;
 }
 
 .client-logo-carousel .logo-container {
@@ -24,10 +22,33 @@
 }
 
 .logo-container img {
-    opacity: 0.6;
-    transition: opacity 0.3s ease;
+    filter: grayscale();
+    transition: all 0.3s ease;
 }
 
 .logo-container:hover img {
+    filter: none;
+}
+
+.logo-date {
+    width: 100%;
+    max-width: 100%;
+    background-color: var(--color-white);
+    top: 0px;
+    position: absolute;
+    border-radius: 50px 50px 50px 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--color-black);
+    padding: 4px;
+    transform: translatey(-10px);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.logo-container:hover .logo-date {
+    transform: translatey(0px);
     opacity: 1;
 }

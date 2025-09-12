@@ -27,7 +27,8 @@ body {
 }
 
 .container:not(.navbar .container) {
-    max-width: 1200px;
+    max-width: 1210px;
+    padding-inline: 20px;
 }
 
 img {
@@ -249,14 +250,15 @@ p {
 
 /* Pricing Section */
 
-
 .pricing-cols {
-    grid-template-columns: 1fr 1fr;
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
+    gap: 30px;
+  }
 
 .pricing-card {
     background: white;
-    border-radius: 16px;
+    border-radius: 24px;
     height: 100%;
     transition: all 0.3s ease;
 }
@@ -300,7 +302,6 @@ p {
     gap: 15px;
 }
 
-
 .plan-footer {
     background: linear-gradient(270deg, #FCE372 0%, #FFDA30 100%);
     padding: 25px 55px 25px 45px;
@@ -313,4 +314,10 @@ p {
 .price-info {
     font-size: 18px;
     font-weight: 700;
+}
+.plan-footer .btn circle {
+    transition: all 0.3s ease;
+}
+.plan-footer .btn:hover circle {
+    fill-opacity: 0.25;
 }

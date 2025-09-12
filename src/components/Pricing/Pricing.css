@@ -18,28 +18,21 @@
     font-size: 14px;
     line-height: 1.4;
 }
-.pricing-cols {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 columns on desktop */
-  gap: 30px;
+.feature-icon img {
+    min-width: 44px;
 }
-
 @media (max-width: 991px) {
     .pricing-section-new {
-    padding: 100px 0;
-}
+        padding: 100px 0;
+    }
 }
 
 @media (max-width: 767px) {
     .pricing-section-new {
-    padding: 70px 0 60px;
-}
+        padding: 70px 0 60px;
+    }
 
-.feature-content strong {
-    font-size: 16px;
-} 
-
-    .pricing-cols {
-    grid-template-columns: 1fr; /* 1 column on mobile */
-  }
+    .feature-content strong {
+        font-size: 16px;
+    }
 }

@@ -26,79 +26,80 @@ const Pricing = () => {
 
                 <div className="pricing-cols d-grid gap-30">
                     {/* Growth Plan */}
-                    <div className="pricing-card overflow-hidden">
-                        <div className="plan-header d-flex flex-column gap-20">
-                            <div className="plan-badge d-flex align-items-center gap-10">
-                                <img src={favicon} alt="Favicon" />
-                                <h4>Growth</h4>
+                    <div className="pricing-card overflow-hidden d-flex flex-column justify-content-between">
+                        <div>
+                            <div className="plan-header d-flex flex-column gap-20">
+                                <div className="plan-badge d-flex align-items-center gap-10">
+                                    <img src={favicon} alt="Favicon" />
+                                    <h4>Growth</h4>
+                                </div>
+                                <p className="plan-description col-xl-9 col-lg-10">
+                                    Kickstart your LinkedIn marketing journey with value-packed testing.
+                                </p>
                             </div>
-                            <p className="plan-description col-xl-9 col-lg-10">
-                                Kickstart your LinkedIn marketing journey with value-packed testing.
-                            </p>
+
+                            <div className="plan-features d-flex flex-column gap-20">
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Profile} alt="Profile Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Profile</strong>
+                                        <span>Your own profile</span>
+                                    </div>
+                                </div>
+
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Email} alt="Inmails Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Inmails</strong>
+                                        <span>Upto 400 Inmails/month</span>
+                                    </div>
+                                </div>
+
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Connect} alt="Connection Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Connection</strong>
+                                        <span>We send 500 invites/month</span>
+                                    </div>
+                                </div>
+
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Message} alt="Messaging Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Messaging</strong>
+                                        <span>Personalized outreach copy written</span>
+                                    </div>
+                                </div>
+
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Assistance} alt="Assistance Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Assistance</strong>
+                                        <span>Dedicated account manager</span>
+                                    </div>
+                                </div>
+
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Setup} alt="Setup Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Setup</strong>
+                                        <span>No setup fee</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div className="plan-features d-flex flex-column gap-20">
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Profile} alt="Profile Icon" />
-                                </div>
-                                <div className="feature-content">
-                                    <strong>Profile</strong>
-                                    <span>Your own profile</span>
-                                </div>
-                            </div>
-
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Email} alt="Inmails Icon" />
-                                </div>
-                                <div className="feature-content">
-                                    <strong>Inmails</strong>
-                                    <span>Upto 400 Inmails/month</span>
-                                </div>
-                            </div>
-
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Connect} alt="Connection Icon" />
-                                </div>
-                                <div className="feature-content">
-                                    <strong>Connection</strong>
-                                    <span>We send 500 invites/month</span>
-                                </div>
-                            </div>
-
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Message} alt="Messaging Icon" />
-                                </div>
-                                <div className="feature-content">
-                                    <strong>Messaging</strong>
-                                    <span>Personalized outreach copy written</span>
-                                </div>
-                            </div>
-
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Assistance} alt="Assistance Icon" />
-                                </div>
-                                <div className="feature-content">
-                                    <strong>Assistance</strong>
-                                    <span>Dedicated account manager</span>
-                                </div>
-                            </div>
-
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Setup} alt="Setup Icon" />
-                                </div>
-                                <div className="feature-content">
-                                    <strong>Setup</strong>
-                                    <span>No setup fee</span>
-                                </div>
-                            </div>
-                        </div>
-
                         <div className="plan-footer">
                             <div className="price-info">
                                 $350/month
@@ -118,78 +119,80 @@ const Pricing = () => {
                     </div>
 
                     {/* Growth Plus Plan */}
-                    <div className="pricing-card overflow-hidden">
-                        <div className="plan-header d-flex flex-column gap-20">
-                            <div className="plan-badge d-flex align-items-center gap-20">
-                                <div className="d-flex align-items-center gap-10">
-                                    <img src={favicon} alt="Favicon" />
-                                    <h4>Growth Plus</h4>
+                    <div className="pricing-card overflow-hidden d-flex flex-column justify-content-between">
+                        <div>
+                            <div className="plan-header d-flex flex-column gap-20">
+                                <div className="plan-badge d-flex align-items-center gap-20">
+                                    <div className="d-flex align-items-center gap-10">
+                                        <img src={favicon} alt="Favicon" />
+                                        <h4>Growth Plus</h4>
+                                    </div>
+                                    <img src={Growthicon} alt="Growth Plus Icon" className="populer-icon" />
                                 </div>
-                                <img src={Growthicon} alt="Growth Plus Icon" className="populer-icon" />
-                            </div>
-                            <p className="plan-description">
-                                Elevate LinkedIn marketing for superior results.
-                            </p>
-                        </div>
-
-                        <div className="plan-features d-flex flex-column gap-20">
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Profile} alt="Profile Icon" />
-                                </div>
-                                <div className="feature-content">
-                                    <strong>Profile</strong>
-                                    <span>5 Personalized profiles</span>
-                                </div>
+                                <p className="plan-description">
+                                    Elevate LinkedIn marketing for superior results.
+                                </p>
                             </div>
 
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Email} alt="Inmails Icon" />
+                            <div className="plan-features d-flex flex-column gap-20">
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Profile} alt="Profile Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Profile</strong>
+                                        <span>5 Personalized profiles</span>
+                                    </div>
                                 </div>
-                                <div className="feature-content">
-                                    <strong>Inmails</strong>
-                                    <span>Upto 400 Inmails/month/account</span>
-                                </div>
-                            </div>
 
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Connect} alt="Connection Icon" />
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Email} alt="Inmails Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Inmails</strong>
+                                        <span>Upto 400 Inmails/month/account</span>
+                                    </div>
                                 </div>
-                                <div className="feature-content">
-                                    <strong>Connection</strong>
-                                    <span>We send 500 invites/month/account</span>
-                                </div>
-                            </div>
 
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Message} alt="Messaging Icon" />
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Connect} alt="Connection Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Connection</strong>
+                                        <span>We send 500 invites/month/account</span>
+                                    </div>
                                 </div>
-                                <div className="feature-content">
-                                    <strong>Messaging</strong>
-                                    <span>Personalized outreach copy written with A/B testing</span>
-                                </div>
-                            </div>
 
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Assistance} alt="Assistance Icon" />
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Message} alt="Messaging Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Messaging</strong>
+                                        <span>Personalized outreach copy written with A/B testing</span>
+                                    </div>
                                 </div>
-                                <div className="feature-content">
-                                    <strong>Assistance</strong>
-                                    <span>Dedicated account manager</span>
-                                </div>
-                            </div>
 
-                            <div className="feature-item">
-                                <div className="feature-icon">
-                                    <img src={Setup} alt="Setup Icon" />
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Assistance} alt="Assistance Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Assistance</strong>
+                                        <span>Dedicated account manager</span>
+                                    </div>
                                 </div>
-                                <div className="feature-content">
-                                    <strong>Setup</strong>
-                                    <span>No setup fee</span>
+
+                                <div className="feature-item">
+                                    <div className="feature-icon">
+                                        <img src={Setup} alt="Setup Icon" />
+                                    </div>
+                                    <div className="feature-content">
+                                        <strong>Setup</strong>
+                                        <span>No setup fee</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>

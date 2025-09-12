@@ -6,7 +6,7 @@ import BtnArrow from "../../assets/images/btn-arr.svg";
 const CTA2 = () => {
     return (
         <div className='cta2-section position-relative'>
-                            <img src={YellowCircle} className="cta2-yellow-circle" />
+            <img src={YellowCircle} className="cta2-yellow-circle d-md-block d-none" />
             <div className="container">
                 {/* Top Section: Connect with the right people */}
                 <div className="row">
