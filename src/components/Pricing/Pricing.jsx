@@ -14,7 +14,7 @@ const Pricing = () => {
     return (
         <section id="pricing" className="pricing-section-new">
             <div className="container">
-                <div className="row mb-5 justify-content-center">
+                <div className="row  mb-md-5 mb-4 justify-content-center">
                     <div className="col-lg-6 text-center">
                         <h2 className="main-h2 mb-4">Crush your sales quota with Leadassist</h2>
                         <p className="pricing-main-subtitle">

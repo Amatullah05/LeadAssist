@@ -49,10 +49,6 @@
 }
 
 @media (max-width: 767px) {
-    .partnership-section {
-        padding: 60px 0;
-    }
-
     .partnership-title {
         font-size: 2rem;
     }

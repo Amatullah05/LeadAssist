@@ -42,6 +42,10 @@
 
 
 @media (max-width: 767px) {
+    .services-section {
+    padding-block: 80px 50px;
+}
+
     .service-card .list-item{
         font-size: 14px;
     }

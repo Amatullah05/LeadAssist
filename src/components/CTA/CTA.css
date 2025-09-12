@@ -36,6 +36,15 @@
     margin-bottom: 1.5rem;
 }
 
+
+@media(max-width: 991px) {
+    .cta-background {
+    padding: 70px 20px;
+}
+
+    
+}
+
 @media (max-width: 767px) {
     .cta-title {
         font-size: 2rem;
@@ -57,11 +66,6 @@
     .cta-title {
         font-size: 1.8rem;
     }
-
-    .cta-description {
-        font-size: 1rem;
-    }
-
     .cta-button {
         width: 100%;
         max-width: 300px;
