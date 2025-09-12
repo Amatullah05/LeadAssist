@@ -109,31 +109,54 @@
 }
 
 /* Mobile (≤576px) */
-@media (max-width: 576px) {
-  /* Make it cleaner on small screens */
+@media (max-width: 767px) {
   .footer-row-1 {
-    flex-direction: column;
-    align-items: flex-start; /* keep left aligned */
-    gap: 15px;
-  }
-
-  .linkedin-badge {
-    align-self: flex-end; /* stay right */
-  }
-
-  .footer-section .col-12 {
-    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;   /* Stack vertically */
     align-items: flex-start;
     gap: 15px;
   }
 
-  .social-icons {
-    width: 100%;
-    justify-content: flex-end; /* stick to right */
+  /* Logo first */
+  .footer-row-1 > div:first-child {
+    display: flex;
+    align-items: start;
+    gap: 10px;
   }
 
+  /* LinkedIn badge second */
+  .footer-row-1 .linkedin-badge {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+
+  /* Phone & email third */
   .footer-row-1 .gap-30 {
-    gap: 15px;
-    margin-block: 10px;
-}
+    order: 3;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 10px;
+  }
+
+  /* Row 2 */
+  .footer-section .col-12 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+  }
+
+  .copyright {
+    margin-bottom: 10px;
+  }
+
+  .legal-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .social-icons {
+    margin-top: 10px;
+    justify-content: flex-start;
+  }
 }

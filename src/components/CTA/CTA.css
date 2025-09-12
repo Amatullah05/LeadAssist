@@ -37,10 +37,6 @@
 }
 
 @media (max-width: 767px) {
-    .cta-section {
-        padding: 80px 20px;
-    }
-
     .cta-title {
         font-size: 2rem;
     }
@@ -57,9 +53,6 @@
 }
 
 @media (max-width: 575px) {
-    .cta-section {
-        padding: 60px 15px;
-    }
 
     .cta-title {
         font-size: 1.8rem;

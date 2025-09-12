@@ -33,7 +33,7 @@ const FooterSection = () => {
             <div className="container d-flex flex-column gap-50">
                 <div className="row align-items-center">
                     {/* Left - Logo + Name */}
-                    <div className="col-12 d-flex align-items-start align-items-md-center footer-row-1">
+                    <div className="col-12 d-flex align-items-start align-items-lg-center footer-row-1">
                         <div>
                             <img src={LeadassistLogo} alt="LeadAssist" className="company-logo me-2" height="47" />
                         </div>
@@ -59,7 +59,7 @@ const FooterSection = () => {
                 {/* Second Row - Social Media, Copyright and Legal Links */}
                 <div className="row align-items-center">
                     {/* Left - Copyright & Legal Links */}
-                    <div className="col-12 d-flex align-items-center justify-content-between gap-50">
+                    <div className="col-12 d-flex align-items-start align-items-lg-center justify-content-between gap-50">
                         <div>
                             <div className="copyright mb-2 pb-1">
                                 © 2025 Leadassist. All rights reserved.

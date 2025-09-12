@@ -1,9 +1,10 @@
+
 .services-section {
     padding-block: 100px 150px;
 }
 
 .service-card {
-    padding: 40px 10px;
+    padding: 40px 0px;
     height: 100%;
 }
 
@@ -18,11 +19,31 @@
     font-weight: 600;
 }
 .service-card .list-item {
-    padding-left: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.75em;
+    list-style: none;
+    position: relative;
+    padding-left: 15px;
 }
-.service-card .list-item::marker {
+
+.service-card .list-item::before {
     content: url("../../assets/images/list-arr.svg");
+    position: absolute;
+    left: -32px;
+    top: 4px;
+    display: inline-block;
+    width: 28px;
+    height: 18px;
+}
+
+@media (max-width:991px){
+    .services-section {
+    padding-block: 100px 80px;
+}
+}
+
+
+@media (max-width: 767px) {
+    .service-card .list-item{
+        font-size: 14px;
+    }
+    
 }

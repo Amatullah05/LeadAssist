@@ -75,8 +75,8 @@
 
 @media (max-width: 767px) {
     .leads-hero-section {
-        padding-block: 90px 60px;
-    }
+    padding-block: 60px 60px;
+}
 
     .leads-container {
         padding: 50px 20px;
@@ -100,7 +100,8 @@
     }
 
     .yellow-circle {
-        top: -25px;
-        right: -25px;
-    }
+    top: -65px;
+    right: 0px;
+    width:180px;
+}
 }

@@ -37,7 +37,7 @@ const Testimonials = () => {
                                                 />
                                             </div>
                                             <div className="testimonial-content-col">
-                                                <div className="testimonial-header d-flex align-items-center gap-20">
+                                                <div className="testimonial-header d-flex align-items-start align-items-lg-center gap-20">
                                                     <div className="author-info">
                                                         <h3 className="author-name">{t.name}</h3>
                                                         <p className="author-designation">{t.position}{t.company ? ` at ${t.company}` : ''}</p>

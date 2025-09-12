@@ -11,7 +11,7 @@ const Service = () => {
                 <div className="row mb-5 justify-content-center">
                     <div className="col-lg-7 text-center">
                         <h2 className="main-h2 display-4 mb-4">What's inside LinkedIn Outreach service?</h2>
-                        <p className="lead">Check out how we help you build meaningful relations with your audience until they become your clients.</p>
+                        <p>Check out how we help you build meaningful relations with your audience until they become your clients.</p>
                     </div>
                 </div>
 
